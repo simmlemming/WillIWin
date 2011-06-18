@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:stretchColumns="1"
+    	android:shrinkColumns="1"
+    >
+    	<TableRow>
+    		<TextView
+				android:layout_width="75dip"
+				android:layout_height="wrap_content"
+				android:text="Money"/>
+
+    		<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="now"/>
+				
+    		<TextView android:id="@+id/txtMoneyNow"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="right"
+				android:text="127"/>
+				
+    	</TableRow>
+
+    	<TableRow>
+    		<TextView
+    			android:layout_column="1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="max"/>
+				
+    		<TextView android:id="@+id/txtMoneyMax"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="right"
+				android:text="210"/>
+				
+    	</TableRow>
+    	<TableRow>
+    		<TextView
+    			android:layout_column="1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="min"/>
+				
+    		<TextView android:id="@+id/txtMoneyMin"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="right"
+				android:text="-16"/>
+				
+    	</TableRow>
+    	<TableRow>
+    		<TextView
+				android:layout_width="75dip"
+				android:layout_height="wrap_content"
+				android:text="Bet"/>
+
+    		<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="first"/>
+				
+    		<TextView android:id="@+id/txtBetFirst"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="right"
+				android:text="1"/>
+				
+    	</TableRow>
+
+    	<TableRow>
+    		<TextView
+    			android:layout_column="1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="max"/>
+				
+    		<TextView android:id="@+id/txtBetMax"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="right"
+				android:text="16"/>
+				
+    	</TableRow>
+    	
+    	<TableRow>
+    		<TextView
+    			android:layout_column="0"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Iterations"/>
+				
+    		<TextView android:id="@+id/txtIterations"
+    			android:layout_column="2"    			
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="right"
+				android:text="25"/>
+				
+    	</TableRow>
+    	
+    </TableLayout>

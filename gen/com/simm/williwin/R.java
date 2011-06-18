@@ -14,10 +14,24 @@ public final class R {
         public static final int icon=0x7f020000;
     }
     public static final class id {
-        public static final int button1=0x7f050000;
+        public static final int button1=0x7f050004;
+        public static final int cell1=0x7f050001;
+        public static final int cell2=0x7f050003;
+        public static final int editFirstBet=0x7f05000c;
+        public static final int editIterations=0x7f05000b;
+        public static final int txtBetFirst=0x7f050008;
+        public static final int txtBetMax=0x7f050009;
+        public static final int txtHeaderLastResult=0x7f050000;
+        public static final int txtHeaderNext=0x7f050002;
+        public static final int txtIterations=0x7f05000a;
+        public static final int txtMoneyMax=0x7f050006;
+        public static final int txtMoneyMin=0x7f050007;
+        public static final int txtMoneyNow=0x7f050005;
     }
     public static final class layout {
         public static final int main=0x7f030000;
+        public static final int table_last_result=0x7f030001;
+        public static final int table_next=0x7f030002;
     }
     public static final class string {
         public static final int app_name=0x7f040001;
